@@ -1,0 +1,13 @@
+﻿<Window x:Class="Diacretization.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Diacretization" Height="350" Width="525">
+    <Grid Background="#FFD6D4D4">
+        <Label Content="Input :" Margin="10,10,458,268"></Label>
+        <TextBox Name="tbInput" Margin="10,56,260,53" AcceptsReturn="True"  AcceptsTab="True" AllowDrop="True" />
+        <TextBox Name="tbOutput" Margin="262,56,10,53" AcceptsReturn="True"  AcceptsTab="True" AllowDrop="True"/>
+        <Label Content="Output :" Margin="262,10,172,268"></Label>
+        <Button Name="btDiacretize" Content="Process" Margin="10,271,398,7" Background="White" Click="btDiacretize_Click"/>
+        <Button Name="btClear" Content="Clear" Background="White" Margin="124,271,280,7" Click="btClear_Click"/>
+    </Grid>
+</Window>
